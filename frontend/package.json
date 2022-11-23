@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development vite --config vite.config.js",
+    "prod": "cross-env NODE_ENV=development vite --config vite.config.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "protobufjs": "^7.1.2",
+    "vite": "^3.2.4"
+  },
+  "devDependencies": {}
+}

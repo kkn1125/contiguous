@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development CHOKIDAR_USEPOLLING=true nodemon app.js",
+    "prod": "cross-env NODE_ENV=production CHOKIDAR_USEPOLLING=true nodemon app.js"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "mysql2": "^2.3.3",
+    "pm2": "^5.2.2",
+    "protobufjs": "^7.1.2",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.15.0"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "nodemon": "^2.0.20"
+  }
+}
